@@ -1,0 +1,5 @@
+package com.example.Tasks.repositories;
+
+public interface TaskRepository {
+
+}
