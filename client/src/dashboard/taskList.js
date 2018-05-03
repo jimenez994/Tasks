@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import './taskList.css';
 
 class taskList extends Component{
@@ -21,10 +22,10 @@ class taskList extends Component{
         )
     }
     componentDidMount(){
-        fetch("http://localhost:8080/allTasks")
-        .then(data => data.json())
+        axios.get("http://localhost:8080/allTasks")
         .then(data => {
-            for(let task of data){
+            console.log(data)
+            for(let task of data.data){
                 task = (
                     <div key= {task.id}>
                         <h4>{task.title}</h4>

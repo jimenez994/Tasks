@@ -8,8 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1>hello World</h1>
+        <NewTask />
         <TaskList/>
-        <NewTask/>
+        
       </div>
     );
   }
