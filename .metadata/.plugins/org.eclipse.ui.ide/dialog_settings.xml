@@ -66,8 +66,9 @@
 		<item value="org.eclipse.pde:3.13.2.v20171130-0510"/>
 		<item value="org.eclipse.platform:4.7.2.v20171130-0510"/>
 		<item value="org.eclipse.rcp:4.7.2.v20171130-0510"/>
-		<item value="org.eclipse.recommenders.mylyn.rcp.feature:2.5.0.v20171201-1623"/>
-		<item value="org.eclipse.recommenders.rcp.feature:2.5.0.v20171201-1623"/>
+		<item value="org.eclipse.recommenders.mylyn.rcp.feature:2.5.2.v20180401-1226"/>
+		<item value="org.eclipse.recommenders.rcp.feature:2.5.2.v20180401-1226"/>
+		<item value="org.eclipse.recommenders.snipmatch.rcp.feature:2.5.2.v20180401-1226"/>
 		<item value="org.eclipse.rse.core:3.7.3.201704251225"/>
 		<item value="org.eclipse.rse.dstore:3.7.0.201704251225"/>
 		<item value="org.eclipse.rse.ftp:3.7.1.201704251225"/>
